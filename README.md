@@ -28,3 +28,9 @@ I tried to learn Selenium but I decided to learn Playwright first.
 - Emulate mobile devices , geolocations
 - Test parameterization: use other files
 - Fast
+
+# Playwright vs Playwright with Pytest
+* `pip install playwright`: installs core playwright API
+* `pip install pytest-playwright`: adds pytest integrations (fixtures, CLI support) ; testing framework for Python for simple scalable and readable test cases ; suitable for testing projects/frameworks, giving us alot of options
+
+These two are compatible and often used together. Playwright gives the raw API, pytest gives test structure and automation convenience.
