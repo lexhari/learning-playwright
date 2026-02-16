@@ -34,3 +34,8 @@ I tried to learn Selenium but I decided to learn Playwright first.
 * `pip install pytest-playwright`: adds pytest integrations (fixtures, CLI support) ; testing framework for Python for simple scalable and readable test cases ; suitable for testing projects/frameworks, giving us alot of options
 
 These two are compatible and often used together. Playwright gives the raw API, pytest gives test structure and automation convenience.
+
+## Writing a PyTest
+### What is a test in PyTest?
+- A test is a function whose name starts with `test_`
+- Pytest automatically finds and runs these
