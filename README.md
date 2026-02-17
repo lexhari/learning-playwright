@@ -55,3 +55,7 @@ These two are compatible and often used together. Playwright gives the raw API, 
 ### `conftest.py`
 Without this, one would need to write the entry and exit of a browser over and over again.
 This defines it as a fixture and can be reused in a code.
+
+### `pytest.ini`
+Configuration file used by pytest to control how your tests run without having to type long CLI again and again
+Can be overriden by other CLIs when typed
