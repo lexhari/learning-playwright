@@ -39,3 +39,9 @@ These two are compatible and often used together. Playwright gives the raw API, 
 ### What is a test in PyTest?
 - A test is a function whose name starts with `test_`
 - Pytest automatically finds and runs these
+
+### CLI Stuff
+- --headed / --headless
+- --browser=chromium / firefox / webkit
+- --screenshot=on / only-on-failure
+- --video=on / retain-on-failure / on-first-retry
