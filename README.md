@@ -45,3 +45,13 @@ These two are compatible and often used together. Playwright gives the raw API, 
 - --browser=chromium / firefox / webkit
 - --screenshot=on / only-on-failure
 - --video=on / retain-on-failure / on-first-retry
+
+## Creating Project Structure
+- tests
+- pages
+- utils
+- reports
+
+### `conftest.py`
+Without this, one would need to write the entry and exit of a browser over and over again.
+This defines it as a fixture and can be reused in a code.
