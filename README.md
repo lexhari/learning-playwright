@@ -59,3 +59,6 @@ This defines it as a fixture and can be reused in a code.
 ### `pytest.ini`
 Configuration file used by pytest to control how your tests run without having to type long CLI again and again
 Can be overriden by other CLIs when typed
+
+### playwright codegen
+A "Record and Playback" tool that writes your test code for you in real-time. Instead of writing code from scratch, you interact with a website manually, and Playwright watches what you do and generates the corresponding code in the Playwright Inspector.
